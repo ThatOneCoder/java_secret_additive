@@ -13,12 +13,6 @@ import java.util.Scanner;
  * is an additive function [ secret(x+y) = secret(x) + secret(y) ] for all prime numbers
  * under N where N is a given integer.
  *
- * Notes:
- * PHP is loosely typed so secret does not explicitly accept only integers. I do, however,
- * cast the return to integer.
- * To guard against a numeric string being falsely treated as a string, I attempt to cast
- * the given limit to an integer.
- *
  * Prime Numbers:
  * A prime number (or a prime) is a natural number greater than 1 that has no positive divisors other than 1 and itself.
  *
